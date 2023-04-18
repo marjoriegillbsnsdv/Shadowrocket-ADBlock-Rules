@@ -1,25 +1,4 @@
-## 最完善的 iOS 翻墙规则
 
-### 停止更新公告
-
-维护该项目已花费了我过多的时间，而生活中值得花费时间的东西太多，所以从即日起停止更新该项目。
-
-------------------------------------------------------
-
-这里是一系列好用的翻墙规则，针对 [Shadowrocket](https://liguangming.com/Shadowrocket) 开发，支持广告过滤。规则定义了哪些网站可以直连，哪些必须走代理，规则是一个纯文本文件，无法提供翻墙功能。使用 Python 按照一定的规则和模板定期自动生成，并且使用开源的力量，集众人之力逐渐完善。
-
-**正在使用手机浏览本页面的用户 [请点击这里](https://github.com/h2y/Shadowrocket-ADBlock-Rules/blob/master/readme.md)，查看完整的说明文档。**
-
-**本规则具有以下特点：**
-
-- 黑名单由最新版 GFWList 自动转换；白名单针对全球 top500 站点的连通情况定期自动生成。
-- 自动转换最新版本的 `EasyList, Eaylist China, 乘风规则` 为 SR 规则，全面去除广告且去除重复。
-- 也包括自定义的广告过滤规则，针对 iOS 端的网页广告、App 广告和视频广告。（[常见广告过滤效果统计](https://github.com/h2y/Shadowrocket-ADBlock-Rules/issues/40)）
-- 提供多个规则文件让大家自由选择或者自由切换使用。
-- 专门针对 ShadowRocket 开发，可以保证与 SR 的兼容性。
-
-
-## 规则列表
 
 ![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png)
 
